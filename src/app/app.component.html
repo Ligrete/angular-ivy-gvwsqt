@@ -1,4 +1,10 @@
-<hello name="{{ name }}"></hello>
-<p>
-  Start editing to see some magic happen :)
-</p>
+<router-outlet></router-outlet>
+
+<div class="header">
+    <mat-toolbar>
+        <span>{{title}}</span>
+    </mat-toolbar>
+</div>
+<div class="content">
+    <app-page-table></app-page-table>
+</div>
